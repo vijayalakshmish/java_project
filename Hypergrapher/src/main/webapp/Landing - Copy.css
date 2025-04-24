@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #13005A;
+    color: #ececee;
+    font-family: monospace;
+    font-size: 18px;
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #000000 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
+    /* background: linear-gradient(115deg, #FF9797 0%, #0F0068 100%), linear-gradient(245deg, #A8FFE5 0%, #0500FF 100%), radial-gradient(100% 225% at 100% 0%, #FF003D 0%, #000000 100%), radial-gradient(90% 160% at 0% 100%, #E42C64 0%, #E42C64 30%, #614AD3 calc(30% + 1px), #614AD3 60%, #2D248A calc(60% + 1px), #2D248A 70%, #121B74 calc(70% + 1px), #121B74 100%), linear-gradient(100deg, #48466F 9%, #48466D 35%, #3D84A8 calc(35% + 1px), #3D84A8 65%, #46CDCF calc(65% + 1px), #46CDCF 70%, #000000 calc(70% + 1px), #000000 100%);
+    background-blend-mode: overlay, overlay, overlay, overlay, normal; */
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+    font-family: Segoe UI;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+div {
+    background-color: #ececee;
+    border-radius: 20px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border: #03c988 5px ridge;
+    width: fit-content;
+    min-width: 900px;
+}
+
+
+
+span {
+    color: #03C988;
+}
+
+
+ 
